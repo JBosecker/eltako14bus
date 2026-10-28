@@ -2,7 +2,7 @@ import asyncio
 import time
 import logging
 
-import serial_asyncio
+import serial_asyncio_fast as serial_asyncio
 
 from .bus import BusInterface
 from .error import ParseError, TimeoutError
